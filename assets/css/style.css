@@ -9,8 +9,14 @@ body{
 }
 
 #content{
-background-color: #666666;
+background-color: rgb(128, 128, 128);
+margin-right: 15px;
+padding: 20px;
+}
 
+h2, h3{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
 }
 
 #my-picture{
@@ -22,8 +28,7 @@ background-color: #666666;
     padding: 20px;
     text-align: center;
     width: 230px;
-    background: #ffffff;
+    background-color: rgb(128, 128, 128);
+
 }
 .col-sm-4{
-    padding: 20px;
-}
