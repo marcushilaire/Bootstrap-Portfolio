@@ -1,0 +1,7 @@
+html{
+    /* background-image: url("../images/background.png"); */
+    /* interesting note: linking background image in html rather then body left everything within the body over a white background above the image */
+}
+body{
+    background-image: url("../images/background.png");
+}
