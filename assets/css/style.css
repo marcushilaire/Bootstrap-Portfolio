@@ -7,3 +7,23 @@ html, body{
 body{
     background-image: url("../images/background.png");
 }
+
+#content{
+background-color: #666666;
+
+}
+
+#my-picture{
+    float: left;
+    padding-right: 10px;
+}
+
+#connect{
+    padding: 20px;
+    text-align: center;
+    width: 230px;
+    background: #ffffff;
+}
+.col-sm-4{
+    padding: 20px;
+}
