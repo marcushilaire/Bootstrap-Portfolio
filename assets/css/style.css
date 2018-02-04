@@ -27,6 +27,7 @@ h2, h3{
 #my-picture{
     float: left;
     padding-right: 10px;
+    padding-bottom: 10px;
 }
 /* about me page */
 .form{
