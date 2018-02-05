@@ -1,7 +1,8 @@
 html, body{
     /* background-image: url("../images/background.png"); */
     /* interesting note: linking background image in html rather then body left everything within the body over a white background above the image */
-    height: 100%
+    height: 100%;
+    margin:0;
 }
 
 body{
@@ -20,6 +21,7 @@ overflow: auto;
     text-align: center;
     width: 230px;
     background-color: rgb(128, 128, 128);
+    margin-bottom: 10px;
 }
 h2, h3{
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -27,10 +29,21 @@ h2, h3{
     font-size: 20px;
 }
 #footertext{
+    margin-top: 5px;
     float:none;
-   
+   color:grey;
     display: block;
     text-align: center;
+}
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -25px;
+}
+.feet, .push{
+    height: 25px;
+}
+.feet{
+    background-color:black;
 }
 /* all of the above apply to every page */
 #my-picture{
