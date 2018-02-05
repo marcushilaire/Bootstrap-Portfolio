@@ -46,8 +46,11 @@ h2, h3{
 /* contact me page */
 
 .carousel-caption{
-   -webkit-text-stroke: .5px black;
+   /* -webkit-text-stroke: .5px black; */
  font-size: 25px;
+background-color: rgba(128,128,128,0.4);
+ /* width: 100%; */
+ /* margin-left: -35px; */
 }
 .portimg{
     margin-bottom: 10px;
