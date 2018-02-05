@@ -64,7 +64,7 @@ h2, h3{
     font-size: 25px;
 }
 .portimg{
-    filter: blur(1px);
+    filter: blur(2px);
 }
 .col-md-4{
     margin-bottom: 10px;
