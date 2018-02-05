@@ -23,6 +23,12 @@ h2, h3{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
 }
+#footertext{
+    float:none;
+   
+    display: block;
+    text-align: center;
+}
 /* all of the above apply to every page */
 #my-picture{
     float: left;
@@ -45,3 +51,4 @@ h2, h3{
 .portimg{
     margin-bottom: 10px;
 }
+/* Portfolio page */
