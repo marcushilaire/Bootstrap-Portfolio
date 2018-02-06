@@ -14,7 +14,6 @@ body{
     margin-top: 11px;
     margin-bottom: 11px;
     font-size: 20px;
-    /* padding: 18px; */
 }
 #content{
 background-color: rgba(128, 128, 128, 0.6);
@@ -35,7 +34,6 @@ h2, h3{
     font-size: 20px;
 }
 #footertext{
-    margin-top: 5px;
     float:none;
    color:grey;
     display: block;
@@ -43,13 +41,13 @@ h2, h3{
 }
 .wrapper{
     min-height: 100%;
-    margin-bottom: -25px;
+    margin-bottom: -30px;
 }
 .feet, .push{
-    height: 25px;
+    height: 30px;
 }
 .feet{
-    background-color:black;
+    background-color:rgba(0, 0, 0, 0.822);
 }
 /* all of the above apply to every page */
 #my-picture{
