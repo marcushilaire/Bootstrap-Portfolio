@@ -19,7 +19,9 @@ body{
     margin-bottom: 11px;
     font-size: 20px;
 }
-
+.container{
+    margin-bottom: 100px;
+}
 h2, h3{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: rgb(255, 255, 255);
