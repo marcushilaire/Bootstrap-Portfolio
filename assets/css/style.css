@@ -4,7 +4,11 @@ html, body{
     height: 100%;
     margin:0;
 }
-
+#about{
+    background-color: rgb(128, 128, 128);
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
 body{
     background-image: url("../images/background.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -15,19 +19,7 @@ body{
     margin-bottom: 11px;
     font-size: 20px;
 }
-#content{
-background-color: rgba(128, 128, 128, 0.6);
-margin-right: 15px;
-margin-bottom: 15px;
-overflow: auto;
-}
-#connect{
-    padding-bottom: 15px;
-    text-align: center;
-    width: 230px;
-    background-color: rgba(128, 128, 128, 0.6);
-    margin-bottom: 10px;
-}
+
 h2, h3{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: rgb(255, 255, 255);
@@ -49,6 +41,10 @@ h2, h3{
 .feet{
     background-color:rgba(0, 0, 0, 0.822);
 }
+.liveLinks{
+    text-align: center;
+    margin-bottom: 0;
+}
 /* all of the above apply to every page */
 #my-picture{
     float: left;
@@ -67,10 +63,14 @@ h2, h3{
 .carousel-caption{
     font-size: 25px;
 }
-.portimg{
-    filter: blur(2px);
-}
+
 .col-md-4{
     margin-bottom: 10px;
 }
 /* Portfolio page */
+footer {
+    /* background-color: rgba(0, 0, 0, 0.6)!important; */
+    border-top: 1px solid lightgray;
+    background-color: rgba(0, 0, 0, 0.8)!important;
+  }
+  
